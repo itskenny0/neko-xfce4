@@ -14,3 +14,4 @@ RUN set -eux; \
     echo "neko ALL=(ALL) NOPASSWD:ALL" >/etc/sudoers.d/neko 
 
 COPY supervisord.conf /etc/neko/supervisord/xfce4.conf
+COPY default.pa /etc/pulse/default.pa
